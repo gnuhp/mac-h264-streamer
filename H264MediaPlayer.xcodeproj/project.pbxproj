@@ -16,28 +16,27 @@
 		380F3EC4162C264E00B8109B /* AudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 380F3EC2162C264E00B8109B /* AudioRecorder.h */; };
 		380F3EC5162C264E00B8109B /* AudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 380F3EC3162C264E00B8109B /* AudioRecorder.m */; };
 		382B83F61628140700AC2005 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382B83F51628140700AC2005 /* Foundation.framework */; };
-		382B84111628142300AC2005 /* mediaplayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 382B84021628142200AC2005 /* mediaplayer.mm */; };
-		382B84121628142300AC2005 /* decoder_video.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 382B84031628142200AC2005 /* decoder_video.cpp */; };
-		382B84131628142300AC2005 /* mediaplayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 382B84041628142300AC2005 /* mediaplayer.h */; };
-		382B84141628142300AC2005 /* decoder_audio.h in Headers */ = {isa = PBXBuildFile; fileRef = 382B84051628142300AC2005 /* decoder_audio.h */; };
-		382B84151628142300AC2005 /* decoder_audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 382B84061628142300AC2005 /* decoder_audio.cpp */; };
-		382B84161628142300AC2005 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 382B84071628142300AC2005 /* thread.cpp */; };
-		382B84171628142300AC2005 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 382B84081628142300AC2005 /* main.cpp */; };
-		382B84181628142300AC2005 /* output.h in Headers */ = {isa = PBXBuildFile; fileRef = 382B84091628142300AC2005 /* output.h */; };
-		382B84191628142300AC2005 /* decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 382B840A1628142300AC2005 /* decoder.cpp */; };
-		382B841A1628142300AC2005 /* output.mm in Sources */ = {isa = PBXBuildFile; fileRef = 382B840B1628142300AC2005 /* output.mm */; };
-		382B841B1628142300AC2005 /* packetqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 382B840C1628142300AC2005 /* packetqueue.cpp */; };
-		382B841C1628142300AC2005 /* decoder_video.h in Headers */ = {isa = PBXBuildFile; fileRef = 382B840D1628142300AC2005 /* decoder_video.h */; };
-		382B841D1628142300AC2005 /* decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 382B840E1628142300AC2005 /* decoder.h */; };
-		382B841E1628142300AC2005 /* packetqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 382B840F1628142300AC2005 /* packetqueue.h */; };
-		382B841F1628142300AC2005 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 382B84101628142300AC2005 /* thread.h */; };
 		382B84221628143600AC2005 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382B84201628143600AC2005 /* AudioToolbox.framework */; };
 		382B84231628143600AC2005 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382B84211628143600AC2005 /* AudioUnit.framework */; };
 		382B84251628143C00AC2005 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382B84241628143C00AC2005 /* QuartzCore.framework */; };
 		382B84271628144400AC2005 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382B84261628144400AC2005 /* OpenGLES.framework */; };
 		382B84291628145500AC2005 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382B84281628145500AC2005 /* UIKit.framework */; };
 		382B842B1628146400AC2005 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382B842A1628146400AC2005 /* CoreGraphics.framework */; };
-		382B84381628174F00AC2005 /* Errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 382B84371628174F00AC2005 /* Errors.h */; };
+		38E1944516310521007FB105 /* decoder_audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E1943916310521007FB105 /* decoder_audio.cpp */; };
+		38E1944616310521007FB105 /* decoder_audio.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E1943A16310521007FB105 /* decoder_audio.h */; };
+		38E1944716310521007FB105 /* decoder_video.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E1943B16310521007FB105 /* decoder_video.cpp */; };
+		38E1944816310521007FB105 /* decoder_video.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E1943C16310521007FB105 /* decoder_video.h */; };
+		38E1944916310521007FB105 /* decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E1943D16310521007FB105 /* decoder.cpp */; };
+		38E1944A16310521007FB105 /* decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E1943E16310521007FB105 /* decoder.h */; };
+		38E1944B16310521007FB105 /* mediaplayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E1943F16310521007FB105 /* mediaplayer.h */; };
+		38E1944C16310521007FB105 /* mediaplayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38E1944016310521007FB105 /* mediaplayer.mm */; };
+		38E1944D16310521007FB105 /* output.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E1944116310521007FB105 /* output.h */; };
+		38E1944E16310521007FB105 /* output.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38E1944216310521007FB105 /* output.mm */; };
+		38E1944F16310521007FB105 /* packetqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E1944316310521007FB105 /* packetqueue.cpp */; };
+		38E1945016310521007FB105 /* packetqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E1944416310521007FB105 /* packetqueue.h */; };
+		38E194541631054C007FB105 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E194521631054C007FB105 /* thread.cpp */; };
+		38E194551631054C007FB105 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E194531631054C007FB105 /* thread.h */; };
+		38E1945716310569007FB105 /* Errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E1945616310569007FB105 /* Errors.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,21 +51,6 @@
 		382B83F21628140700AC2005 /* libH264MediaPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libH264MediaPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		382B83F51628140700AC2005 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		382B83F91628140700AC2005 /* H264MediaPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "H264MediaPlayer-Prefix.pch"; sourceTree = "<group>"; };
-		382B84021628142200AC2005 /* mediaplayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = mediaplayer.mm; path = ../../libmediaplayer/mediaplayer.mm; sourceTree = "<group>"; };
-		382B84031628142200AC2005 /* decoder_video.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = decoder_video.cpp; path = ../../libmediaplayer/decoder_video.cpp; sourceTree = "<group>"; };
-		382B84041628142300AC2005 /* mediaplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mediaplayer.h; path = ../../libmediaplayer/mediaplayer.h; sourceTree = "<group>"; };
-		382B84051628142300AC2005 /* decoder_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = decoder_audio.h; path = ../../libmediaplayer/decoder_audio.h; sourceTree = "<group>"; };
-		382B84061628142300AC2005 /* decoder_audio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = decoder_audio.cpp; path = ../../libmediaplayer/decoder_audio.cpp; sourceTree = "<group>"; };
-		382B84071628142300AC2005 /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = thread.cpp; path = ../../libmediaplayer/thread.cpp; sourceTree = "<group>"; };
-		382B84081628142300AC2005 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../libmediaplayer/main.cpp; sourceTree = "<group>"; };
-		382B84091628142300AC2005 /* output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = output.h; path = ../../libmediaplayer/output.h; sourceTree = "<group>"; };
-		382B840A1628142300AC2005 /* decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = decoder.cpp; path = ../../libmediaplayer/decoder.cpp; sourceTree = "<group>"; };
-		382B840B1628142300AC2005 /* output.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = output.mm; path = ../../libmediaplayer/output.mm; sourceTree = "<group>"; };
-		382B840C1628142300AC2005 /* packetqueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = packetqueue.cpp; path = ../../libmediaplayer/packetqueue.cpp; sourceTree = "<group>"; };
-		382B840D1628142300AC2005 /* decoder_video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = decoder_video.h; path = ../../libmediaplayer/decoder_video.h; sourceTree = "<group>"; };
-		382B840E1628142300AC2005 /* decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = decoder.h; path = ../../libmediaplayer/decoder.h; sourceTree = "<group>"; };
-		382B840F1628142300AC2005 /* packetqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = packetqueue.h; path = ../../libmediaplayer/packetqueue.h; sourceTree = "<group>"; };
-		382B84101628142300AC2005 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thread.h; path = ../../libmediaplayer/thread.h; sourceTree = "<group>"; };
 		382B84201628143600AC2005 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		382B84211628143600AC2005 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		382B84241628143C00AC2005 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -82,7 +66,21 @@
 		382B8433162815CB00AC2005 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
 		382B8434162815CB00AC2005 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
 		382B8436162815DF00AC2005 /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
-		382B84371628174F00AC2005 /* Errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Errors.h; path = ../../libmediaplayer/include/android/Errors.h; sourceTree = "<group>"; };
+		38E1943916310521007FB105 /* decoder_audio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = decoder_audio.cpp; sourceTree = "<group>"; };
+		38E1943A16310521007FB105 /* decoder_audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decoder_audio.h; sourceTree = "<group>"; };
+		38E1943B16310521007FB105 /* decoder_video.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = decoder_video.cpp; sourceTree = "<group>"; };
+		38E1943C16310521007FB105 /* decoder_video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decoder_video.h; sourceTree = "<group>"; };
+		38E1943D16310521007FB105 /* decoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = decoder.cpp; sourceTree = "<group>"; };
+		38E1943E16310521007FB105 /* decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decoder.h; sourceTree = "<group>"; };
+		38E1943F16310521007FB105 /* mediaplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mediaplayer.h; sourceTree = "<group>"; };
+		38E1944016310521007FB105 /* mediaplayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mediaplayer.mm; sourceTree = "<group>"; };
+		38E1944116310521007FB105 /* output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = output.h; sourceTree = "<group>"; };
+		38E1944216310521007FB105 /* output.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = output.mm; sourceTree = "<group>"; };
+		38E1944316310521007FB105 /* packetqueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = packetqueue.cpp; sourceTree = "<group>"; };
+		38E1944416310521007FB105 /* packetqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = packetqueue.h; sourceTree = "<group>"; };
+		38E194521631054C007FB105 /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cpp; sourceTree = "<group>"; };
+		38E194531631054C007FB105 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		38E1945616310569007FB105 /* Errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Errors.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +137,9 @@
 		382B83F71628140700AC2005 /* H264MediaPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				38E1945616310569007FB105 /* Errors.h */,
+				38E194521631054C007FB105 /* thread.cpp */,
+				38E194531631054C007FB105 /* thread.h */,
 				380F3EC2162C264E00B8109B /* AudioRecorder.h */,
 				380F3EC3162C264E00B8109B /* AudioRecorder.m */,
 				380F3EBE162C262000B8109B /* InMemoryAudioFile.h */,
@@ -147,22 +148,18 @@
 				380F3EB6162C24BB00B8109B /* RemoteIOPlayer.m */,
 				380F3EB7162C24BB00B8109B /* PCMPlayer.h */,
 				380F3EB8162C24BB00B8109B /* PCMPlayer.m */,
-				382B84091628142300AC2005 /* output.h */,
-				382B840B1628142300AC2005 /* output.mm */,
-				382B84371628174F00AC2005 /* Errors.h */,
-				382B84041628142300AC2005 /* mediaplayer.h */,
-				382B84021628142200AC2005 /* mediaplayer.mm */,
-				382B840D1628142300AC2005 /* decoder_video.h */,
-				382B84031628142200AC2005 /* decoder_video.cpp */,
-				382B84051628142300AC2005 /* decoder_audio.h */,
-				382B84061628142300AC2005 /* decoder_audio.cpp */,
-				382B840E1628142300AC2005 /* decoder.h */,
-				382B840A1628142300AC2005 /* decoder.cpp */,
-				382B84081628142300AC2005 /* main.cpp */,
-				382B840F1628142300AC2005 /* packetqueue.h */,
-				382B840C1628142300AC2005 /* packetqueue.cpp */,
-				382B84101628142300AC2005 /* thread.h */,
-				382B84071628142300AC2005 /* thread.cpp */,
+				38E1943916310521007FB105 /* decoder_audio.cpp */,
+				38E1943A16310521007FB105 /* decoder_audio.h */,
+				38E1943B16310521007FB105 /* decoder_video.cpp */,
+				38E1943C16310521007FB105 /* decoder_video.h */,
+				38E1943D16310521007FB105 /* decoder.cpp */,
+				38E1943E16310521007FB105 /* decoder.h */,
+				38E1943F16310521007FB105 /* mediaplayer.h */,
+				38E1944016310521007FB105 /* mediaplayer.mm */,
+				38E1944116310521007FB105 /* output.h */,
+				38E1944216310521007FB105 /* output.mm */,
+				38E1944316310521007FB105 /* packetqueue.cpp */,
+				38E1944416310521007FB105 /* packetqueue.h */,
 				382B83F81628140700AC2005 /* Supporting Files */,
 			);
 			path = H264MediaPlayer;
@@ -208,18 +205,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				382B84131628142300AC2005 /* mediaplayer.h in Headers */,
-				382B84141628142300AC2005 /* decoder_audio.h in Headers */,
-				382B84181628142300AC2005 /* output.h in Headers */,
-				382B841C1628142300AC2005 /* decoder_video.h in Headers */,
-				382B841D1628142300AC2005 /* decoder.h in Headers */,
-				382B841E1628142300AC2005 /* packetqueue.h in Headers */,
-				382B841F1628142300AC2005 /* thread.h in Headers */,
-				382B84381628174F00AC2005 /* Errors.h in Headers */,
 				380F3EB9162C24BB00B8109B /* RemoteIOPlayer.h in Headers */,
 				380F3EBB162C24BB00B8109B /* PCMPlayer.h in Headers */,
 				380F3EC0162C262000B8109B /* InMemoryAudioFile.h in Headers */,
 				380F3EC4162C264E00B8109B /* AudioRecorder.h in Headers */,
+				38E1944616310521007FB105 /* decoder_audio.h in Headers */,
+				38E1944816310521007FB105 /* decoder_video.h in Headers */,
+				38E1944A16310521007FB105 /* decoder.h in Headers */,
+				38E1944B16310521007FB105 /* mediaplayer.h in Headers */,
+				38E1944D16310521007FB105 /* output.h in Headers */,
+				38E1945016310521007FB105 /* packetqueue.h in Headers */,
+				38E194551631054C007FB105 /* thread.h in Headers */,
+				38E1945716310569007FB105 /* Errors.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,18 +270,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				382B84111628142300AC2005 /* mediaplayer.mm in Sources */,
-				382B84121628142300AC2005 /* decoder_video.cpp in Sources */,
-				382B84151628142300AC2005 /* decoder_audio.cpp in Sources */,
-				382B84161628142300AC2005 /* thread.cpp in Sources */,
-				382B84171628142300AC2005 /* main.cpp in Sources */,
-				382B84191628142300AC2005 /* decoder.cpp in Sources */,
-				382B841A1628142300AC2005 /* output.mm in Sources */,
-				382B841B1628142300AC2005 /* packetqueue.cpp in Sources */,
 				380F3EBA162C24BB00B8109B /* RemoteIOPlayer.m in Sources */,
 				380F3EBC162C24BB00B8109B /* PCMPlayer.m in Sources */,
 				380F3EC1162C262000B8109B /* InMemoryAudioFile.m in Sources */,
 				380F3EC5162C264E00B8109B /* AudioRecorder.m in Sources */,
+				38E1944516310521007FB105 /* decoder_audio.cpp in Sources */,
+				38E1944716310521007FB105 /* decoder_video.cpp in Sources */,
+				38E1944916310521007FB105 /* decoder.cpp in Sources */,
+				38E1944C16310521007FB105 /* mediaplayer.mm in Sources */,
+				38E1944E16310521007FB105 /* output.mm in Sources */,
+				38E1944F16310521007FB105 /* packetqueue.cpp in Sources */,
+				38E194541631054C007FB105 /* thread.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
